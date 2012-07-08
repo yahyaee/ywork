@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>layout2</title>
+<style type="text/css">
+
+div{
+	outline:1px solid #000;	
+}
+
+* {
+	padding:0;
+	margin:0;
+}
+
+div.clear{
+	width:0;
+	height:0;
+	clear:both;
+}
+/*-------- container pic background -----------*/
+div.container {
+	width:1348px;
+	height:1237px;
+	background-image:url(image/all.jpg);
+}
+/*----------- container asli -----------*/
+div.con2 {
+	width:966px;
+	height:1237px;
+	margin:0 auto;
+	text-align:center;
+}
+/*----------------header--------------*/
+div.header{
+	width:966px;
+	height:186px;
+}
+
+div.header-l{
+	width:308px;
+	height:186px;
+	float:left;
+}
+
+div.header-r{
+	width:639px;
+	height:171px;
+	margin-left:308px;
+	padding-left:19px;
+	padding-top:15px;
+}
+
+div.header-r-up{
+	width:473px;
+	height:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+/*---------------menu---------------*/
+div.menu{
+	height:29px;
+	background-color:#f5f4f2;
+}
+
+
+.menu ul{
+	list-style:none;
+	width:500px;
+	margin:0 auto;
+}
+
+.menu ul li{
+	float:left;
+}
+
+.menu ul li a{
+	display:block;
+	padding:5px 18px;
+	color:#b3b2b0;
+	text-decoration:none;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:15px;
+}
+
+div.menu li:hover{
+	border-bottom:2px solid #edc821;
+}
+
+div.menu li:hover a{
+	color:#006;	
+}
+
+div.menu li:first-child{
+	border-left:0;	
+}
+/*---------------menu finish---------------*/
+div.header-r-down{
+	width:627px;
+	height:97px;
+}
+
+/*---------------middle up----------------*/
+div.middleup{
+	width:966px;
+	height:372px;
+	padding-top:17px;
+}
+
+div.middleup-into{
+	width:940px;
+	height:310px;
+	margin:0 auto;
+	border:10px solid #edecea;
+}
+/*---------------middle down----------------*/
+div.middledown{
+	width:966px;
+	height:285px;
+}
+
+div.middledown-left{
+	width:302px;
+	margin-left:12px;
+	height:275px;
+	float:left;
+}
+
+div.yellow-link1{
+	width:102px;
+	height:29px;
+}
+
+div.yellow-link1 a:hover img{
+	background-color:#FF9;
+	filter:alpha(opacity=40);
+	border-top:2px solid #666;
+	border-bottom:2px solid #666;
+}
+
+div.yellow-link2{
+	width:186px;
+	height:29px;
+}
+
+div.yellow-link2 a:hover img{
+	border-top:2px solid #666;
+	border-bottom:2px solid #666;
+}
+
+div.yellow-link3{
+	width:135px;
+	height:29px;
+}
+
+div.yellow-link3 a:hover img{
+	border-top:2px solid #666;
+	border-bottom:2px solid #666;
+}
+
+div.middledown-mid{
+	width:302px;
+	margin-left:18px;
+	height:275px;
+	float:left;
+}
+
+div.middledown-right{
+	width:302px;
+	margin-left:19px;
+	height:275px;
+	float:left;
+}
+/*---------------middle down2--------------*/
+div.middledown2{
+	width:1348;
+	height:211px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+
+div.middledown2-left{
+	width:230px;
+	margin-left:6px;
+	height:210px;
+	float:left;
+	padding-top:3px;
+	background-color:#f5f4f2;
+}
+
+div.middledown2-left p,a{
+	text-align:left;
+	line-height:25px;
+	text-decoration:none;
+}
+
+div.middledown2-midleft{
+	width:230px;
+	margin-left:7px;
+	height:210px;
+	float:left;
+	padding-top:3px;
+	background-color:#f5f4f2;
+}
+
+a.black-titr{
+	color:#000;	
+}
+
+div.middledown2-midleft ul{
+	list-style:none;
+	text-align:left;
+	line-height:25px;
+}
+
+div.middledown2-midright{
+	width:230px;
+	margin-left:10px;
+	height:210px;
+	float:left;
+	padding-top:3px;
+	background-color:#f5f4f2;
+}
+
+div.middledown2-midright p{
+	text-align:left;
+	line-height:25px;
+}
+
+.selection {
+background: #DEDC00;
+color: #5D5D5C;
+}
+
+div.middledown2-right{
+	width:230px;
+	margin-left:7px;
+	height:210px;
+	float:left;
+	padding-top:3px;
+	background-color:#f5f4f2;
+}
+/*------------footer------------*/
+div.footer{
+	width:1348;
+	height:134px;
+}
+
+div.foot-left{
+	width:286px;
+	height:35px;
+	margin-left:6px;
+	margin-top:15px;
+	padding-top:5px;
+	float:left;
+	background-color:#f5f4f2;
+}
+
+div p,a{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	color:#828280;
+}
+
+div.foot-mid{
+	width:220px;
+	height:22px;
+	margin-right:14px;
+	margin-top:21px;
+	float:right;
+	background-color:#e2e1dd;
+}
+
+div.foot-right{
+	width:223px;
+	height:57px;
+	margin-top:20px;
+	margin-right:21px;
+	float:right;
+}
+
+
+</style>
+</head>
+
+<body>
+<div class="container">
+	<div class="con2">
+    	
+        <div class="header">
+        	<div class="header-l"><img src="image/152_03.jpg" width="308" height="186" /></div>
+            <div class="header-r">
+            	<div class="header-r-up">
+                	<div class="menu">
+    					<ul>
+        					<li><a href="#">Accueil</a></li>
+            				<li><a href="#">Studio</a></li>
+            				<li><a href="#">Services</a></li>
+                    		<li><a href="#">Portfolio</a></li>
+                    		<li><a href="#">Blog</a></li>
+            				<li><a href="#">Contact</a></li>
+        				</ul>
+    				</div>
+                </div><br />
+                <div class="header-r-down">
+                	<!--<h3>Une agence web &agrave; taille humaine, une &eacute;quipe &agrave; votre &eacute;coute.</h3> 
+                            <h4>Chez Impala Webstudio, nous sommes une équipe de passionnés, créative et dynamique. Nous réalisons des sites internet clairs et efficaces. De la simplicité en somme, pour vous et vos clients.</h4>-->
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        
+        <div class="middleup">
+            <div class="middleup-into"><img src="image/slide4.jpg" width="940" height="310" /></div>
+            <div class="clear"></div>
+        </div>
+        
+        <div class="middledown">
+        	
+            <div class="middledown-left">
+            	<div class="yellow-link1"><a href="#"><img src="image/all_03.jpg" style="opacity:40;"/></a></div>
+            </div>
+            <div class="middledown-mid">
+            	<div class="yellow-link2"><a href="#"><img src="image/all_05.jpg" /></a></div>
+            </div>
+            <div class="middledown-right">
+            	<div class="yellow-link3"><a href="#"><img src="image/all_07.jpg" /></a></div>
+            </div>
+        </div>
+        <div class="middledown2">
+        	<div class="middledown2-left">
+            	<h4 align="left">Impala Webstudio</h4> 
+          <p>&raquo; <a href="#" title="Accueil">Accueil</a><br /> 
+            &raquo; <a href="#" title="Studio">Studio</a><br /> 
+            &raquo; <a href="#" title="Services">Services</a><br /> 
+            &raquo; <a href="#" title="Portfolio">Portfolio</a><br /> 
+            &raquo; <a href="#" title="Blog">Blog</a><br /> 
+          &raquo; <a href="#" title="Contact">Contact</a></p> 
+            </div>
+            
+            <div class="middledown2-midleft">
+            	<h4 align="left"><a href="#" target="_blank" class="black-titr">Quoi de neuf ?</a></h4> 
+          		<ul>
+          			<li>&raquo; <a href="#">Responsive design. Ou comment faire entrer une girafe dans une Twingo en trois temps</a></li>
+                    <li>&raquo; <a href="#">Musique maestro</a></li>
+                    <li>&raquo; <a href="#">♬ J'entends le loup, le renard et la belette…</a></li>
+                    <li>&raquo; <a href="#">La véritable nature des Impalas</a></li>
+                </ul>
+            </div>
+            
+            <div class="middledown2-midright">
+            	<h4 align="left">Restons en contact</h4> 
+          		<p class="Tel"><s></s><span>03 20 26 96 25</span></p> 
+          		<p class="Email"><s></s><a href="#">contact@impala-webstudio.fr</a></p> 
+          		<p class="Adresse"><s></s><span>43 rue Charlie Chaplin</span><br /> 
+          		<span>59100 ROUBAIX</span></p> 
+          		<p class="GoogleMaps"><s></s>Trouvez-nous rapidement <br /> 
+          		sur <a target="_blank" href="#">Google Maps</a></p> 
+            </div>
+            
+            <div class="middledown2-right">
+            	<h4 align="left">Recevez notre Newsletter</h4><br />
+            	<p>Restez inform&eacute;s des derni&egrave;res actus et potins de l'agence !</p><br />
+                <input type="text" value="Votre email ici"  /> 
+          		<input type="submit" value="ok" /> 
+                <div class="clear">&nbsp;</div><br />
+                <p>Votre adresse email ne sera en aucun cas revendue, ou utilis&eacute;e par une soci&eacute;t&eacute; autre que la n&ocirc;tre.</p>
+            </div>
+        </div>
+        <div class="footer">
+        	<div class="foot-left">
+            	<p>Copyright &copy; 2010 Impala Webstudio - Tous droits r&eacute;serv&eacute;s. <br /> 
+       		    Site d&eacute;clar&eacute; &agrave; la CNIL - <a href="#">Mentions l&eacute;gales</a></p> 
+            </div>
+            
+            <div class="foot-mid">
+            <a href="#" >Rejoignez-nous</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#" >Espace Client</a></div>
+            <div class="foot-right">
+            	
+            </div>	
+        </div>
+	</div>
+</div>
+</body>
+</html>
